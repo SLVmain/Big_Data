@@ -10,7 +10,7 @@
 
 
 ## Задание 2
-## Написать map-reduce на Python
+## Реализовать MAP-REDUCE на Python
 
 1. Доустановлен Python3.
     
