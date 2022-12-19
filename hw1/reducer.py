@@ -14,8 +14,9 @@ for line in sys.stdin:
         continue
 
     v = (cj * vj + ck * vk) / (cj + ck) + cj * ck * ((mj - mk) / (cj + ck)) ** 2
+    m = (cj * mj + ck * mk) / (cj + ck)
     cj += ck
 
-    mj, vj = mk, v
+    mj, vj = m, v
 
 print(cj, mj, vj, sep='\t')
